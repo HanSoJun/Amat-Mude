@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Hutan 1.unity
     guid: bd5a3456b4fa9df48a222b642162e3d0
+  - enabled: 1
+    path: Assets/Scenes/Hutan 2.unity
+    guid: 1c16d29180f37b14a85b97799a5b13e0
   m_configObjects: {}

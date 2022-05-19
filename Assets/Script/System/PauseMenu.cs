@@ -7,6 +7,7 @@ public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     [SerializeField] GameObject pauseMenu;
+    private int currentSceneIndex;
     
     public void Pause()
     {
@@ -22,9 +23,10 @@ public class PauseMenu : MonoBehaviour
         GameIsPaused = false;
     }
 
-    public void Home(int sceneID)
+    public void Home()
     {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(sceneID);
+        currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        PlayerPrefs.SetInt("SavedScene", currentSceneIndex);
+        SceneManager.LoadScene(0);
     }
 }

@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 494}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 950, y: 494}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -553,7 +553,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0ef4ffff3ef6ffff3af8ffff6ef8ffffb8faffff64fbfffff450000006510000
+      m_ExpandedIDs: 64fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -615,7 +615,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 2.9804142, y: -1.6899923, z: -18.431946}
     speed: 2
-    m_Value: {x: 2.9619553, y: -1.6753604, z: -18.369299}
+    m_Value: {x: 2.9804142, y: -1.6899923, z: -18.431946}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -650,7 +650,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 14.549502
     speed: 2
-    m_Value: 13.922969
+    m_Value: 14.549502
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -754,7 +754,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 199}
     m_SelectedIDs: 6c3e0000
     m_LastClickedID: 15980
-    m_ExpandedIDs: 00000000a437000042380000683c0000ec450000b2470000664a0000684a00006a4a00006c4a00006e4a0000704a0000724a0000744a0000764a0000784a000000ca9a3b
+    m_ExpandedIDs: 00000000a237000040380000663c0000ea450000b0470000664a0000684a00006a4a00006c4a00006e4a0000704a0000724a0000744a0000764a0000784a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -782,7 +782,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a437000042380000683c0000ec450000b2470000664a0000684a00006a4a00006c4a00006e4a0000704a0000724a0000744a0000764a0000784a0000
+    m_ExpandedIDs: 00000000a237000040380000663c0000ea450000b0470000664a0000684a00006a4a00006c4a00006e4a0000704a0000724a0000744a0000764a0000784a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

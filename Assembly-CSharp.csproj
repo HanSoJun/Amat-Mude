@@ -82,7 +82,6 @@
     <Compile Include="Assets\Script\Player\playerMove.cs" />
     <Compile Include="Assets\Script\Player\PlayerWalkSfx.cs" />
     <Compile Include="Assets\Script\Player\Prologue1_5Audio.cs" />
-    <Compile Include="Assets\Script\Player\ScriptableObject.cs" />
     <Compile Include="Assets\Script\Player\WeaponScript.cs" />
     <Compile Include="Assets\Script\System\Continue.cs" />
     <Compile Include="Assets\Script\System\EnterRoom.cs" />

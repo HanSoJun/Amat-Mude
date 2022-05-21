@@ -11,9 +11,16 @@ public class PlayerHealth : MonoBehaviour
     public HealthBar healthBar;
     private Vector3 respawnPoint;
 
+
+    private void Awake()
+    {
+        PlayerPrefs.SetInt("healthplayer", currentHealth);
+
+        currentHealth = PlayerPrefs.GetInt("healthplayer");
+    }
+
     void Start()
     {
-        currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
     }
 
@@ -57,5 +64,10 @@ public class PlayerHealth : MonoBehaviour
         currentHealth -= 10;
 
         healthBar.SetHealth(currentHealth);
+    }
+
+    void SaveHealth()
+    {
+        PlayerPrefs.SetInt("healthplayer", currentHealth);
     }
 }

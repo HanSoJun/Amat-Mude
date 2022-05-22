@@ -73,6 +73,7 @@
     <Compile Include="Assets\Script\Player\AnimatorControllertombak.cs" />
     <Compile Include="Assets\Script\Player\AudioManager.cs" />
     <Compile Include="Assets\Script\Player\CameraFollow.cs" />
+    <Compile Include="Assets\Script\Player\gamemanager.cs" />
     <Compile Include="Assets\Script\Player\HealthBar.cs" />
     <Compile Include="Assets\Script\Player\jalan.cs" />
     <Compile Include="Assets\Script\Player\kontrol.cs" />

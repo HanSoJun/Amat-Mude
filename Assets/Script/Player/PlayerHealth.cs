@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int maxHealth = 100;
-    public int currentHealth;
+    public static int maxHealth = 100;
+    public static int currentHealth ;
 
     public HealthBar healthBar;
     private Vector3 respawnPoint;
@@ -21,18 +21,20 @@ public class PlayerHealth : MonoBehaviour
 
     void Start()
     {
+        currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
     }
 
     void Update()
     {
+        PlayerPrefs.SetInt("healthplayer", currentHealth);
         if (currentHealth <= 0)
         {
             Destroy(gameObject);
             SceneManager.LoadScene(0);
         }
     }
-    // Update is called once per frame
+
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Enemy"))

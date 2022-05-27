@@ -6,7 +6,7 @@ public class gamemanager : MonoBehaviour
 {
     public int maxHealth = 100;
     public int currentHealth;
-    public HealthBar healthBar;
+    public static HealthBar healthBar;
 
     private void Awake()
     {

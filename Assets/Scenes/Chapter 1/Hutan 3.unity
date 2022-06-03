@@ -2548,7 +2548,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  jumpSpeed: 10
+  jumpSpeed: 12
   scaleX: 1.5447
 --- !u!114 &1423463086
 MonoBehaviour:

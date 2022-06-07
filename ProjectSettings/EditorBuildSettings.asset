@@ -9,10 +9,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 58a13a9ec7be375438acd6f3cf796482
   - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene 1.unity
+    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 1.unity
     guid: e9d11592814d46e4a869fa41c61fa37b
   - enabled: 1
-    path: Assets/Scenes/Cutscene/Cutscene 2.unity
+    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 2.unity
     guid: 590e1a178d62edb44b8063fdda49a77a
   - enabled: 1
     path: Assets/Scenes/Chapter 1/Hutan.unity

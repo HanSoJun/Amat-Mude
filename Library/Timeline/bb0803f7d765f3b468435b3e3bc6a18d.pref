@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeInFrames: 1
-  timeAreaShownRange: {x: 169.238, y: 260.08212}
+  timeAreaShownRange: {x: 127.19815, y: 352.0025}
   showAudioWaveform: 1
   trackScale: 1
   playRangeEnabled: 0
   timeAreaPlayRange: {x: 3.4028235e+38, y: 3.4028235e+38}
-  windowTime: 198.627173403278
-  verticalScroll: 2181
+  windowTime: 195.68333333333334
+  verticalScroll: 51
   showMarkerHeader: 0
   m_Keys:
   - {fileID: -6993863402809983610, guid: bb0803f7d765f3b468435b3e3bc6a18d, type: 2}
@@ -77,7 +77,6 @@ MonoBehaviour:
   - {fileID: 4794787518195897636, guid: bb0803f7d765f3b468435b3e3bc6a18d, type: 2}
   - {fileID: 9213382032441975824, guid: bb0803f7d765f3b468435b3e3bc6a18d, type: 2}
   - {fileID: 7905021604114588716, guid: bb0803f7d765f3b468435b3e3bc6a18d, type: 2}
-  - {fileID: -8009649448693432310, guid: bb0803f7d765f3b468435b3e3bc6a18d, type: 2}
   - {fileID: -6878343432379922640, guid: bb0803f7d765f3b468435b3e3bc6a18d, type: 2}
   - {fileID: 1187955643983136771, guid: bb0803f7d765f3b468435b3e3bc6a18d, type: 2}
   - {fileID: 1618479913654525505, guid: bb0803f7d765f3b468435b3e3bc6a18d, type: 2}
@@ -95,41 +94,6 @@ MonoBehaviour:
   - {fileID: 3081940132603646649, guid: bb0803f7d765f3b468435b3e3bc6a18d, type: 2}
   - {fileID: 7360359908543387222, guid: bb0803f7d765f3b468435b3e3bc6a18d, type: 2}
   m_Vals:
-  - collapsed: 0
-    showMarkers: 1
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
-    lastInlineCurveDataID: -1
-    inlineCurvesState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
-      m_SearchString: 
-    inlineCurvesShownAreaInsideMargins:
-      serializedVersion: 2
-      x: 1
-      y: 1
-      width: 1
-      height: 1
-    m_MarkerTimeStampsKeys: 
-    m_MarkerTimeStampsValues: 
   - collapsed: 0
     showMarkers: 1
     showInlineCurves: 0

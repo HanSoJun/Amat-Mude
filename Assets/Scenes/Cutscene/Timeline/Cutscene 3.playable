@@ -380,7 +380,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Clip: {fileID: 7400000, guid: 0eb8fae329759524a9d23f3e665cfecf, type: 2}
   m_Position: {x: 0, y: 0, z: 0}
-  m_EulerAngles: {x: 0, y: 0, z: 0}
+  m_EulerAngles: {x: 0, y: 180, z: 0}
   m_UseTrackMatchFields: 1
   m_MatchTargetFields: 63
   m_RemoveStartOffset: 1
@@ -2697,7 +2697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Clip: {fileID: 7400000, guid: f4ed961e1d66deb42af4220469c536b9, type: 2}
   m_Position: {x: -0.2294674, y: -0.88079524, z: -0.0003182986}
-  m_EulerAngles: {x: 0.028, y: 0.028, z: 0.028}
+  m_EulerAngles: {x: 0.028, y: 180, z: 0.028}
   m_UseTrackMatchFields: 1
   m_MatchTargetFields: 63
   m_RemoveStartOffset: 1

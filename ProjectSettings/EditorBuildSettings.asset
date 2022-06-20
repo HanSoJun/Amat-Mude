@@ -36,6 +36,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Cutscene/Cutscene/Cutscene 9.unity
     guid: 7be4c772e3b999545a2545cc9af20333
   - enabled: 1
+    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 10.unity
+    guid: 837a36b98e6fd8841b0297e997ef467d
+  - enabled: 1
+    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 11.unity
+    guid: 15a24ad847eb2fc4d98ad8c491946ea4
+  - enabled: 1
+    path: Assets/Scenes/Cutscene/Cutscene/Cutscene 12.unity
+    guid: 2da96e2d218134a43b51003769ebdc85
+  - enabled: 1
     path: Assets/Scenes/Chapter 1/Hutan.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -47,6 +56,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chapter 1/Hutan 3.unity
     guid: 9049b0c78a8d02c4996f96e4ecacdc76
+  - enabled: 1
+    path: Assets/Scenes/Chapter 1/Hutan 4.unity
+    guid: ca096ba0cde4a014499ec4da58883152
   - enabled: 1
     path: Assets/Scenes/Chapter 2/Jalan 1.unity
     guid: 833a8a1514b0e394a95216dec14e956d
@@ -68,4 +80,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chapter 3/Pulau 2.unity
     guid: dcb347d0ceef86b40ac72fd0b32b9927
+  - enabled: 1
+    path: Assets/Scenes/Chapter 3/Pulau 3.unity
+    guid: 6c7364ff53a98654e90e60487eabe028
+  - enabled: 1
+    path: Assets/Scenes/Chapter 3/Pulau 4.unity
+    guid: ed8a8ff7b409c154bacc17fa18fd4c62
   m_configObjects: {}

@@ -237,80 +237,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.460464, y: 1.1599998}
   m_EdgeRadius: 0
---- !u!1 &134546839
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 134546840}
-  - component: {fileID: 134546841}
-  - component: {fileID: 134546842}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &134546840
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 134546839}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1218458286}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &134546841
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 134546839}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -29.91, y: 0.056508064}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.60147476, y: 15.037609}
-  m_EdgeRadius: 0
---- !u!114 &134546842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 134546839}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35f327578ec40fe4495620521ce64fae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneCutsceneName: Hutan 3
-  sceneNonCutsceneName: Hutan 3
-  cutsceneName: Hutan keempat
-  isCutsceneNext: 0
 --- !u!114 &181295793 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5635079313345619495, guid: c219e7b2ae51c20448b3fb1c0c12adbc,
@@ -973,7 +899,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1218458286}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &738742237
 BoxCollider2D:
@@ -1469,11 +1395,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c9e5822bb30e524787359f5796f4735, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: -0.02, y: 3.18, z: -1}
+  offset: {x: -0.02, y: 4.35, z: -1}
   Player: {fileID: 253651580}
   player: {fileID: 253651579}
   jarak: 3
-  border: {x: 5.2, y: 22.69}
+  border: {x: -7.55, y: 35}
 --- !u!4 &1120319441 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7775669367278309294, guid: d1e7a7f0803331c4983d8bba3970b049,
@@ -1676,7 +1602,6 @@ Transform:
   m_LocalPosition: {x: 13.687464, y: 0.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 134546840}
   - {fileID: 738742236}
   m_Father: {fileID: 0}
   m_RootOrder: 5

@@ -188,9 +188,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Exit
-
-'
+  m_Text: Keluar
 --- !u!222 &279167820
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -409,7 +407,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Continue
+  m_Text: Lanjut
 --- !u!222 &336054538
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -486,9 +484,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Start
-
-'
+  m_Text: Mulai
 --- !u!222 &605480968
 CanvasRenderer:
   m_ObjectHideFlags: 0

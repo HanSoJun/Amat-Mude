@@ -1746,6 +1746,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2524873059432149050, guid: c219e7b2ae51c20448b3fb1c0c12adbc,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524873059432149050, guid: c219e7b2ae51c20448b3fb1c0c12adbc,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524873059432149050, guid: c219e7b2ae51c20448b3fb1c0c12adbc,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8458798276715808055, guid: c219e7b2ae51c20448b3fb1c0c12adbc,
         type: 3}
       propertyPath: m_AnchorMin.x

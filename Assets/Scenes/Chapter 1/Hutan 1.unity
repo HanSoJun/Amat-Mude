@@ -1741,6 +1741,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6672194709866743645, guid: c219e7b2ae51c20448b3fb1c0c12adbc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8458798276715808055, guid: c219e7b2ae51c20448b3fb1c0c12adbc,
         type: 3}
       propertyPath: m_AnchorMin.x
@@ -3650,7 +3655,7 @@ SpriteRenderer:
   m_Size: {x: 1.68, y: 1.68}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1897363825

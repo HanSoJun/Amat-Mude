@@ -490,16 +490,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2876213668870295189, guid: 6791e027f2f9d6c419b3ac101b09a27e,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2876213667748184893, guid: 6791e027f2f9d6c419b3ac101b09a27e,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2876213669660242493, guid: 6791e027f2f9d6c419b3ac101b09a27e,
         type: 3}
       propertyPath: m_RenderMode
@@ -510,6 +500,16 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1449213915}
+    - target: {fileID: 2876213668870295189, guid: 6791e027f2f9d6c419b3ac101b09a27e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876213667748184893, guid: 6791e027f2f9d6c419b3ac101b09a27e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6791e027f2f9d6c419b3ac101b09a27e, type: 3}
 --- !u!1001 &474588560
@@ -1929,7 +1929,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: Hutan
-    clip: {fileID: 8300000, guid: 96a9ad41c1e363549b8195713dadd527, type: 3}
+    clip: {fileID: 8300000, guid: 99d8e6215941a5c4f8ee5e7b757c8d5a, type: 3}
   - name: Beton
     clip: {fileID: 8300000, guid: ff8d7355cfafa9948ac102702bb48354, type: 3}
 --- !u!4 &1616679450

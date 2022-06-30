@@ -25,9 +25,6 @@ public class PauseMenu : MonoBehaviour
 
     public void Home()
     {
-        currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        PlayerPrefs.SetInt("SavedScene", currentSceneIndex);
-        SceneManager.LoadScene(0);
-        Time.timeScale = 1f;
+        Time.timeScale = 0f;
     }
 }

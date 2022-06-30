@@ -2030,6 +2030,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2886497338762307126, guid: c219e7b2ae51c20448b3fb1c0c12adbc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2524873061223670258, guid: c219e7b2ae51c20448b3fb1c0c12adbc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3550,7 +3555,7 @@ SpriteRenderer:
   m_Size: {x: 1.68, y: 1.68}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2049566764

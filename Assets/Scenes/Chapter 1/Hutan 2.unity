@@ -2286,6 +2286,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2886497338762307126, guid: c219e7b2ae51c20448b3fb1c0c12adbc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2524873061223670258, guid: c219e7b2ae51c20448b3fb1c0c12adbc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2513,8 +2518,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 302779012249740111, guid: c219e7b2ae51c20448b3fb1c0c12adbc,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1250445868}
+    - target: {fileID: 302779012249740111, guid: c219e7b2ae51c20448b3fb1c0c12adbc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Home
       objectReference: {fileID: 0}
     - target: {fileID: 8458798276715808055, guid: c219e7b2ae51c20448b3fb1c0c12adbc,
         type: 3}
@@ -2611,8 +2621,30 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 34.64
       objectReference: {fileID: 0}
+    - target: {fileID: 3431034129861373979, guid: c219e7b2ae51c20448b3fb1c0c12adbc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3431034129861373979, guid: c219e7b2ae51c20448b3fb1c0c12adbc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c219e7b2ae51c20448b3fb1c0c12adbc, type: 3}
+--- !u!114 &1250445868 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1984885476898390409, guid: c219e7b2ae51c20448b3fb1c0c12adbc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1250445866}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0bf819c1932774f908d9afa5c0a79a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1280338471
 GameObject:
   m_ObjectHideFlags: 0
@@ -3831,7 +3863,7 @@ SpriteRenderer:
   m_Size: {x: 1.68, y: 1.68}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2049566764

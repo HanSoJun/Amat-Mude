@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class Continue : MonoBehaviour
 {
-    private int sceneToContinue;
+    [SerializeField] private int sceneToContinue;
 
     public void ContinueGame()
     {
         sceneToContinue = PlayerPrefs.GetInt("SavedScene");
-
+        
         if (sceneToContinue != 0)
         {
             SceneManager.LoadScene(sceneToContinue);

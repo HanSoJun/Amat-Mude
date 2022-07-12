@@ -7,7 +7,6 @@ public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     [SerializeField] GameObject pauseMenu;
-    private int currentSceneIndex;
     
     public void Pause()
     {
